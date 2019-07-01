@@ -1,0 +1,94 @@
+﻿body{
+	margin: 0 ;				/* スペース */
+	padding: 0 ;			/* 余白 */
+	font-size: 15px ;		/* 文字サイズ */
+	line-height: 1.618 ;	/* 行の高さ */
+}
+#wrapper{
+    overflow: hidden;
+    height: 80vh;
+    border: 1px solid #111111;
+}
+
+table{
+    table-layout: fixed;
+}
+
+/* 背景画像指定 */
+#titleBox{
+    background-image: url("title_bg.jpg");
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* タイトルアレンジ指定 */
+#title{
+    float: left;
+    width: 70%;
+    height: 100%;
+    overflow:hidden;
+    text-shadow: 0 0 10px #FFFFFF;
+    font-size: 58px;
+    font-family: 'Hiragino Maru Gothic Pro','ヒラギノ丸ゴ Pro W4', sans-serif;
+}
+
+#center_box{
+     font-size: calc(15px + 0.4vw);
+     position: relative;
+     top: 5vh;
+     left: -1vh;
+}
+
+/* ログイン等 */
+#menuBox{
+    width:30%;    
+    height: auto;
+    background-color: #AADDBB;
+    display: table;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.menuBtn{
+    display: table-cell;
+    vertical-align: middle;
+    border: solid 1px;
+}
+
+#tag_list{
+    font-size: calc(13px + 0.4vw);
+    color: black;
+}
+
+#user_list{
+    font-size: calc(13px + 0.4vw);
+    color: black;
+}
+
+#left{
+    width: 80%;
+    float: left;
+}
+
+#right{
+    width: 20%;
+    float: right;
+}
+
+#news{
+    width: 95%;
+    margin: auto;
+    color: black;
+    font-size: calc(10px + 0.25vw);
+    background-color: #CCDDEE;
+    overflow: auto;
+    max-height: 15vh;
+}
+
+footer{
+    text-align: center;
+    background-color: #AADDDD;
+    margin: 0px;
+}
